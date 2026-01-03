@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YOUR_TEAM_ID.com.yourname.pasar",
+        "paths": [
+          "/view_ad/*"
+        ],
+        "components": [
+          {
+            "/": "/view_ad/*",
+            "comment": "Matches any URL with a path that starts with /view_ad/"
+          }
+        ]
+      }
+    ]
+  }
+}
