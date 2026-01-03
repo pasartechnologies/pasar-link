@@ -1,0 +1,15 @@
+<script>
+  // Automatically try to open the app scheme
+  const urlParams = new URLSearchParams(window.location.search);
+  const adId = urlParams.get('id');
+  const type = urlParams.get('type');
+  window.location.replace(`pasar://view_ad/${type}/${adId}`);
+</script>
+<p>Opening Pasar... if it doesn't open, <a href="pasar://view_ad/...">click here</a>.</p><script>
+  // Automatically try to open the app scheme
+  const urlParams = new URLSearchParams(window.location.search);
+  const adId = urlParams.get('id');
+  const type = urlParams.get('type');
+  window.location.replace(`pasar://view_ad/${type}/${adId}`);
+</script>
+<p>Opening Pasar... if it doesn't open, <a href="pasar://view_ad/...">click here</a>.</p>
